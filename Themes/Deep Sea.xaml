@@ -56,7 +56,7 @@
                     <SolidColorBrush x:Key="CloudDriveSyncStatusExcludedColor" Color="#AAAAAA" />
                     <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="{StaticResource RegionColor}" />
                     <SolidColorBrush x:Key="SystemControlPageBackgroundMediumAltMediumBrush" Color="#99000000" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{StaticResource RegionBrush}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{StaticResource RegionColor}" />
 
                     <SolidColorBrush x:Key="ControlFillColorDefaultBrush" Color="#040378" />
                     <SolidColorBrush x:Key="ControlFillColorSecondaryBrush" Color="#00277B" />
