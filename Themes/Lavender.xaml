@@ -39,34 +39,6 @@
                     <Color x:Key="SystemRevealListLowColor">#FF3F2E4B</Color>
                     <Color x:Key="SystemRevealListMediumColor">#FF64576B</Color>
                     <AcrylicBrush x:Key="SystemControlAcrylicWindowBrush" BackgroundSource="HostBackdrop" TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.8" FallbackColor="{ThemeResource SystemChromeMediumColor}" />
-                    <!-- Override system shape defaults -->
-                    <CornerRadius x:Key="ControlCornerRadius">2,2,2,2</CornerRadius>
-                    <CornerRadius x:Key="OverlayCornerRadius">4,4,4,4</CornerRadius>
-                    <!-- Override system borders -->
-                    <Thickness x:Key="MenuBarItemBorderThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="GridViewItemMultiselectBorderThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="CheckBoxBorderThemeThickness">1</Thickness>
-                    <x:Double x:Key="GridViewItemSelectedBorderThemeThickness">1</x:Double>
-                    <x:Double x:Key="RadioButtonBorderThemeThickness">1</x:Double>
-                    <Thickness x:Key="ButtonBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="CalendarDatePickerBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="TimePickerBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="DatePickerBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ToggleSwitchOuterBorderStrokeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="RepeatButtonBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="SearchBoxBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ToggleButtonBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="TextControlBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="RepeatButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ToggleButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="AppBarEllipsisButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="AppBarButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="AppBarToggleButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ListViewItemRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="GridViewItemRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ComboBoxItemRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <x:Double x:Key="PersonPictureEllipseBadgeStrokeThickness">1</x:Double>
                     <!-- Override system generated accent colors -->
                     <Color x:Key="SystemAccentColorDark1">#FF9875D4</Color>
                     <Color x:Key="SystemAccentColorDark2">#FFA788DD</Color>
@@ -171,34 +143,6 @@
                     <Color x:Key="SystemRevealListLowColor">#FFFBE4FF</Color>
                     <Color x:Key="SystemRevealListMediumColor">#FFEECEFF</Color>
                     <AcrylicBrush x:Key="SystemControlAcrylicWindowBrush" BackgroundSource="HostBackdrop" TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.8" FallbackColor="{ThemeResource SystemChromeMediumColor}" />
-                    <!-- Override system shape defaults -->
-                    <CornerRadius x:Key="ControlCornerRadius">2,2,2,2</CornerRadius>
-                    <CornerRadius x:Key="OverlayCornerRadius">4,4,4,4</CornerRadius>
-                    <!-- Override system borders -->
-                    <Thickness x:Key="MenuBarItemBorderThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="GridViewItemMultiselectBorderThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="CheckBoxBorderThemeThickness">1</Thickness>
-                    <x:Double x:Key="GridViewItemSelectedBorderThemeThickness">1</x:Double>
-                    <x:Double x:Key="RadioButtonBorderThemeThickness">1</x:Double>
-                    <Thickness x:Key="ButtonBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="CalendarDatePickerBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="TimePickerBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="DatePickerBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ToggleSwitchOuterBorderStrokeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="RepeatButtonBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="SearchBoxBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ToggleButtonBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="TextControlBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="RepeatButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ToggleButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="AppBarEllipsisButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="AppBarButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="AppBarToggleButtonRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ListViewItemRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="GridViewItemRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <Thickness x:Key="ComboBoxItemRevealBorderThemeThickness">1,1,1,1</Thickness>
-                    <x:Double x:Key="PersonPictureEllipseBadgeStrokeThickness">1</x:Double>
                     <!-- Override system generated accent colors -->
                     <Color x:Key="SystemAccentColorLight1">#FF9875D4</Color>
                     <Color x:Key="SystemAccentColorLight2">#FFA788DD</Color>
@@ -261,11 +205,11 @@
                     <Color x:Key="SolidBackgroundFillColorSecondary">#FFFBE4FF</Color>
                     <Color x:Key="SolidBackgroundFillColorTertiary">#FFF8DFFF</Color>
                     <Color x:Key="SolidBackgroundFillColorQuarternary">#FFF4D9FF</Color>
-                    <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="{StaticResource RegionColor}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{StaticResource RegionColor}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{StaticResource BasePalette1000Color}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{StaticResource BasePalette900Color}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{StaticResource BasePalette800Color}" />
+                    <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="{StaticResource BasePalette000Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{StaticResource BasePalette000Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{StaticResource BasePalette100Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{StaticResource BasePalette200Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{StaticResource BasePalette300Color}" />
                 </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
