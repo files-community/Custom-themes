@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)"
                     xmlns:BelowWindows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract, 7)">
-    <ResourceDictionary.ThemeDictionaries>
+      <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Dark">
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary>
@@ -19,8 +19,11 @@
                 	<SolidColorBrush x:Key="ControlFillColorSecondaryBrush" Color="#212121" />
                 	<SolidColorBrush x:Key="ControlFillColorTertiaryBrush" Color="#212121" />
                 	<SolidColorBrush x:Key="ControlFillColorInputActiveBrush" Color="#212121" />
+                  <CornerRadius x:Key="ControlCornerRadius">8,8,8,8</CornerRadius>
+                  <CornerRadius x:Key="OverlayCornerRadius">8,8,8,8</CornerRadius>
                 </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>
+
