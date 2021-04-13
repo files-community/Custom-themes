@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CustomThemesPackage/obj/**
+/CustomThemePackage/bin/
+/CustomThemePackage/.vs/**
+/CustomThemesPackage/.vs/**
+/CustomThemesPackage/bin/**
