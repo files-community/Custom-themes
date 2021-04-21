@@ -5,8 +5,9 @@
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Default">
             <ResourceDictionary.MergedDictionaries>
-                <Windows10version1809:ColorPaletteResources Accent="#FFBD93F9" AltHigh="#FF000000" AltLow="#FF000000" AltMedium="#FF000000" AltMediumHigh="#FF000000" AltMediumLow="#FF000000" BaseHigh="#FFFFFFFF" BaseLow="#FF44475A" BaseMedium="#FFA0A4B6" BaseMediumHigh="#FFB7BBCD" BaseMediumLow="#FF727588" ChromeAltLow="#FFB7BBCD" ChromeBlackHigh="#FF000000" ChromeBlackLow="#FFB7BBCD" ChromeBlackMedium="#FF000000" ChromeBlackMediumLow="#FF000000" ChromeDisabledHigh="#FF44475A" ChromeDisabledLow="#FFA0A4B6" ChromeGray="#FF898D9F" ChromeHigh="#FF898D9F" ChromeLow="#FF0E1E3D" ChromeMedium="#FF1B2844" ChromeMediumLow="#FF363D53" ChromeWhite="#FFFFFFFF" ListLow="#FF1B2844" ListMedium="#FF44475A" />
+                <Windows10version1809:ColorPaletteResources Accent="#1A73E8" AltHigh="#000000" AltLow="#000000" AltMedium="#000000" AltMediumHigh="#000000" AltMediumLow="#000000" BaseHigh="#FFFFFF" BaseLow="#212121" BaseMedium="#FFFFFF" BaseMediumHigh="#FFFFFF" BaseMediumLow="#99FFFFFF" ChromeAltLow="#212121" ChromeBlackHigh="#000000" ChromeBlackLow="#000000" ChromeBlackMedium="#000000" ChromeBlackMediumLow="#000000" ChromeDisabledHigh="#212121" ChromeDisabledLow="#1A73E8" ChromeGray="#212121" ChromeHigh="#1A73E8" ChromeLow="#212121" ChromeMedium="#212121" ChromeMediumLow="#181818" ChromeWhite="#FFFFFF" ListLow="#212121" ListMedium="#1A73E8" />
                 <ResourceDictionary>
+                    <Color x:Key="SolidBackgroundAcrylic">#181818</Color>
                     <Color x:Key="SolidBackgroundFillColorBase">#000000</Color>
                     <Color x:Key="SolidBackgroundFillColorSecondary">#000000</Color>
                     <Color x:Key="SolidBackgroundFillColorTertiary">#181818</Color>
