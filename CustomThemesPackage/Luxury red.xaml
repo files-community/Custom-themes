@@ -38,6 +38,7 @@
                     <Color x:Key="SystemChromeAltHighColor">#FF333333</Color>
                     <Color x:Key="SystemRevealListLowColor">#FF1D1D1D</Color>
                     <Color x:Key="SystemRevealListMediumColor">#FF333333</Color>
+                     <Color x:Key="SolidBackgroundAcrylic">#9CAACC</Color>
                     <AcrylicBrush x:Key="SystemControlAcrylicWindowBrush" BackgroundSource="HostBackdrop" TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.8" FallbackColor="{ThemeResource SystemChromeMediumColor}" />
                     <!-- Override system shape defaults -->
                     <CornerRadius x:Key="ControlCornerRadius">4,4,4,4</CornerRadius>
@@ -161,4 +162,3 @@
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>
-
