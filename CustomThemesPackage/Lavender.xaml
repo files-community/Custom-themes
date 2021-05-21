@@ -1,12 +1,39 @@
-<!-- Free Public License 1.0.0 Permission to use, copy, modify, and/or distribute this code for any purpose with or without fee is hereby granted. -->
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)"
-                    xmlns:BelowWindows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract, 7)">
+<!--  Free Public License 1.0.0 Permission to use, copy, modify, and/or distribute this code for any purpose with or without fee is hereby granted.  -->
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:BelowWindows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract, 7)"
+    xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)">
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Default">
             <ResourceDictionary.MergedDictionaries>
-                <Windows10version1809:ColorPaletteResources Accent="#FF8961CC" AltHigh="#FF000000" AltLow="#FF000000" AltMedium="#FF000000" AltMediumHigh="#FF000000" AltMediumLow="#FF000000" BaseHigh="#FFFFFFFF" BaseLow="#FF64576B" BaseMedium="#FFB6AABC" BaseMediumHigh="#FFCBBFD0" BaseMediumLow="#FF8D8193" ChromeAltLow="#FFCBBFD0" ChromeBlackHigh="#FF000000" ChromeBlackLow="#FFCBBFD0" ChromeBlackMedium="#FF000000" ChromeBlackMediumLow="#FF000000" ChromeDisabledHigh="#FF64576B" ChromeDisabledLow="#FFB6AABC" ChromeGray="#FFA295A8" ChromeHigh="#FFA295A8" ChromeLow="#FF332041" ChromeMedium="#FF3F2E4B" ChromeMediumLow="#FF584960" ChromeWhite="#FFFFFFFF" ListLow="#FF3F2E4B" ListMedium="#FF64576B" />
+                <Windows10version1809:ColorPaletteResources
+                    Accent="#FF8961CC"
+                    AltHigh="#FF000000"
+                    AltLow="#FF000000"
+                    AltMedium="#FF000000"
+                    AltMediumHigh="#FF000000"
+                    AltMediumLow="#FF000000"
+                    BaseHigh="#FFFFFFFF"
+                    BaseLow="#FF64576B"
+                    BaseMedium="#FFB6AABC"
+                    BaseMediumHigh="#FFCBBFD0"
+                    BaseMediumLow="#FF8D8193"
+                    ChromeAltLow="#FFCBBFD0"
+                    ChromeBlackHigh="#FF000000"
+                    ChromeBlackLow="#FFCBBFD0"
+                    ChromeBlackMedium="#FF000000"
+                    ChromeBlackMediumLow="#FF000000"
+                    ChromeDisabledHigh="#FF64576B"
+                    ChromeDisabledLow="#FFB6AABC"
+                    ChromeGray="#FFA295A8"
+                    ChromeHigh="#FFA295A8"
+                    ChromeLow="#FF332041"
+                    ChromeMedium="#FF3F2E4B"
+                    ChromeMediumLow="#FF584960"
+                    ChromeWhite="#FFFFFFFF"
+                    ListLow="#FF3F2E4B"
+                    ListMedium="#FF64576B" />
                 <ResourceDictionary>
                     <BelowWindows10version1809:Color x:Key="SystemAccentColor">#FF8961CC</BelowWindows10version1809:Color>
                     <BelowWindows10version1809:Color x:Key="SystemAltHighColor">#FF000000</BelowWindows10version1809:Color>
@@ -38,8 +65,13 @@
                     <Color x:Key="SystemChromeAltHighColor">#FF64576B</Color>
                     <Color x:Key="SystemRevealListLowColor">#FF3F2E4B</Color>
                     <Color x:Key="SystemRevealListMediumColor">#FF64576B</Color>
-                    <AcrylicBrush x:Key="SystemControlAcrylicWindowBrush" BackgroundSource="HostBackdrop" TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.8" FallbackColor="{ThemeResource SystemChromeMediumColor}" />
-                    <!-- Override system generated accent colors -->
+                    <AcrylicBrush
+                        x:Key="SystemControlAcrylicWindowBrush"
+                        BackgroundSource="HostBackdrop"
+                        FallbackColor="{ThemeResource SystemChromeMediumColor}"
+                        TintColor="{ThemeResource SystemChromeAltHighColor}"
+                        TintOpacity="0.8" />
+                    <!--  Override system generated accent colors  -->
                     <Color x:Key="SystemAccentColorDark1">#FF9875D4</Color>
                     <Color x:Key="SystemAccentColorDark2">#FFA788DD</Color>
                     <Color x:Key="SystemAccentColorDark3">#FFB79CE5</Color>
@@ -47,7 +79,7 @@
                     <Color x:Key="SystemAccentColorLight2">#FF6543A9</Color>
                     <Color x:Key="SystemAccentColorLight3">#FF543397</Color>
                     <Color x:Key="RegionColor">#FF262738</Color>
-                    <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+                    <SolidColorBrush x:Key="RegionBrush" Color="{ThemeResource RegionColor}" />
                     <Color x:Key="BaseColor">#FF64576B</Color>
                     <Color x:Key="BasePalette000Color">#FFCBBFD0</Color>
                     <Color x:Key="BasePalette100Color">#FFB6AABC</Color>
@@ -72,45 +104,71 @@
                     <Color x:Key="PrimaryPalette800Color">#FF543397</Color>
                     <Color x:Key="PrimaryPalette900Color">#FF422486</Color>
                     <Color x:Key="PrimaryPalette1000Color">#FF301574</Color>
-                    <SolidColorBrush x:Key="BaseBrush" Color="{StaticResource BaseColor}" />
-                    <SolidColorBrush x:Key="BasePalette000Brush" Color="{StaticResource BasePalette000Color}" />
-                    <SolidColorBrush x:Key="BasePalette100Brush" Color="{StaticResource BasePalette100Color}" />
-                    <SolidColorBrush x:Key="BasePalette200Brush" Color="{StaticResource BasePalette200Color}" />
-                    <SolidColorBrush x:Key="BasePalette300Brush" Color="{StaticResource BasePalette300Color}" />
-                    <SolidColorBrush x:Key="BasePalette400Brush" Color="{StaticResource BasePalette400Color}" />
-                    <SolidColorBrush x:Key="BasePalette500Brush" Color="{StaticResource BasePalette500Color}" />
-                    <SolidColorBrush x:Key="BasePalette600Brush" Color="{StaticResource BasePalette600Color}" />
-                    <SolidColorBrush x:Key="BasePalette700Brush" Color="{StaticResource BasePalette700Color}" />
-                    <SolidColorBrush x:Key="BasePalette800Brush" Color="{StaticResource BasePalette800Color}" />
-                    <SolidColorBrush x:Key="BasePalette900Brush" Color="{StaticResource BasePalette900Color}" />
-                    <SolidColorBrush x:Key="BasePalette1000Brush" Color="{StaticResource BasePalette1000Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette000Brush" Color="{StaticResource PrimaryPalette000Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette100Brush" Color="{StaticResource PrimaryPalette100Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette200Brush" Color="{StaticResource PrimaryPalette200Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette300Brush" Color="{StaticResource PrimaryPalette300Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette400Brush" Color="{StaticResource PrimaryPalette400Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette500Brush" Color="{StaticResource PrimaryPalette500Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette600Brush" Color="{StaticResource PrimaryPalette600Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette700Brush" Color="{StaticResource PrimaryPalette700Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette800Brush" Color="{StaticResource PrimaryPalette800Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette900Brush" Color="{StaticResource PrimaryPalette900Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette1000Brush" Color="{StaticResource PrimaryPalette1000Color}" />
-                    <!-- Files-specific overrides -->
+                    <SolidColorBrush x:Key="BaseBrush" Color="{ThemeResource BaseColor}" />
+                    <SolidColorBrush x:Key="BasePalette000Brush" Color="{ThemeResource BasePalette000Color}" />
+                    <SolidColorBrush x:Key="BasePalette100Brush" Color="{ThemeResource BasePalette100Color}" />
+                    <SolidColorBrush x:Key="BasePalette200Brush" Color="{ThemeResource BasePalette200Color}" />
+                    <SolidColorBrush x:Key="BasePalette300Brush" Color="{ThemeResource BasePalette300Color}" />
+                    <SolidColorBrush x:Key="BasePalette400Brush" Color="{ThemeResource BasePalette400Color}" />
+                    <SolidColorBrush x:Key="BasePalette500Brush" Color="{ThemeResource BasePalette500Color}" />
+                    <SolidColorBrush x:Key="BasePalette600Brush" Color="{ThemeResource BasePalette600Color}" />
+                    <SolidColorBrush x:Key="BasePalette700Brush" Color="{ThemeResource BasePalette700Color}" />
+                    <SolidColorBrush x:Key="BasePalette800Brush" Color="{ThemeResource BasePalette800Color}" />
+                    <SolidColorBrush x:Key="BasePalette900Brush" Color="{ThemeResource BasePalette900Color}" />
+                    <SolidColorBrush x:Key="BasePalette1000Brush" Color="{ThemeResource BasePalette1000Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette000Brush" Color="{ThemeResource PrimaryPalette000Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette100Brush" Color="{ThemeResource PrimaryPalette100Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette200Brush" Color="{ThemeResource PrimaryPalette200Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette300Brush" Color="{ThemeResource PrimaryPalette300Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette400Brush" Color="{ThemeResource PrimaryPalette400Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette500Brush" Color="{ThemeResource PrimaryPalette500Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette600Brush" Color="{ThemeResource PrimaryPalette600Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette700Brush" Color="{ThemeResource PrimaryPalette700Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette800Brush" Color="{ThemeResource PrimaryPalette800Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette900Brush" Color="{ThemeResource PrimaryPalette900Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette1000Brush" Color="{ThemeResource PrimaryPalette1000Color}" />
+                    <!--  Files-specific overrides  -->
                     <Color x:Key="SolidBackgroundFillColorBase">#FF262738</Color>
                     <Color x:Key="SolidBackgroundFillColorSecondary">#FF3F2E4B</Color>
                     <Color x:Key="SolidBackgroundFillColorTertiary">#FF332041</Color>
                     <Color x:Key="SolidBackgroundFillColorQuarternary">#FF271236</Color>
-                    <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="{StaticResource RegionColor}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{StaticResource RegionColor}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{StaticResource BasePalette100Color}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{StaticResource BasePalette200Color}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{StaticResource BasePalette300Color}" />
+                    <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="{ThemeResource RegionColor}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{ThemeResource RegionColor}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{ThemeResource BasePalette100Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{ThemeResource BasePalette200Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{ThemeResource BasePalette300Color}" />
                 </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
         <ResourceDictionary x:Key="Light">
             <ResourceDictionary.MergedDictionaries>
-                <Windows10version1809:ColorPaletteResources Accent="#FF8961CC" AltHigh="#FFFFFFFF" AltLow="#FFFFFFFF" AltMedium="#FFFFFFFF" AltMediumHigh="#FFFFFFFF" AltMediumLow="#FFFFFFFF" BaseHigh="#FF000000" BaseLow="#FFEECEFF" BaseMedium="#FFA987BC" BaseMediumHigh="#FF7B5890" BaseMediumLow="#FF9270A6" ChromeAltLow="#FF7B5890" ChromeBlackHigh="#FF000000" ChromeBlackLow="#FFEECEFF" ChromeBlackMedium="#FF7B5890" ChromeBlackMediumLow="#FFA987BC" ChromeDisabledHigh="#FFEECEFF" ChromeDisabledLow="#FFA987BC" ChromeGray="#FF9270A6" ChromeHigh="#FFEECEFF" ChromeLow="#FFFEEAFF" ChromeMedium="#FFFBE4FF" ChromeMediumLow="#FFFEEAFF" ChromeWhite="#FFFFFFFF" ListLow="#FFFBE4FF" ListMedium="#FFEECEFF" />
+                <Windows10version1809:ColorPaletteResources
+                    Accent="#FF8961CC"
+                    AltHigh="#FFFFFFFF"
+                    AltLow="#FFFFFFFF"
+                    AltMedium="#FFFFFFFF"
+                    AltMediumHigh="#FFFFFFFF"
+                    AltMediumLow="#FFFFFFFF"
+                    BaseHigh="#FF000000"
+                    BaseLow="#FFEECEFF"
+                    BaseMedium="#FFA987BC"
+                    BaseMediumHigh="#FF7B5890"
+                    BaseMediumLow="#FF9270A6"
+                    ChromeAltLow="#FF7B5890"
+                    ChromeBlackHigh="#FF000000"
+                    ChromeBlackLow="#FFEECEFF"
+                    ChromeBlackMedium="#FF7B5890"
+                    ChromeBlackMediumLow="#FFA987BC"
+                    ChromeDisabledHigh="#FFEECEFF"
+                    ChromeDisabledLow="#FFA987BC"
+                    ChromeGray="#FF9270A6"
+                    ChromeHigh="#FFEECEFF"
+                    ChromeLow="#FFFEEAFF"
+                    ChromeMedium="#FFFBE4FF"
+                    ChromeMediumLow="#FFFEEAFF"
+                    ChromeWhite="#FFFFFFFF"
+                    ListLow="#FFFBE4FF"
+                    ListMedium="#FFEECEFF" />
                 <ResourceDictionary>
                     <BelowWindows10version1809:Color x:Key="SystemAccentColor">#FF8961CC</BelowWindows10version1809:Color>
                     <BelowWindows10version1809:Color x:Key="SystemAltHighColor">#FFFFFFFF</BelowWindows10version1809:Color>
@@ -142,17 +200,26 @@
                     <Color x:Key="SystemChromeAltHighColor">#FFEECEFF</Color>
                     <Color x:Key="SystemRevealListLowColor">#FFFBE4FF</Color>
                     <Color x:Key="SystemRevealListMediumColor">#FFEECEFF</Color>
-                    <AcrylicBrush x:Key="SystemControlAcrylicWindowBrush" BackgroundSource="HostBackdrop" TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.8" FallbackColor="{ThemeResource SystemChromeMediumColor}" />
-                    <!-- Override system generated accent colors -->
+                    <AcrylicBrush
+                        x:Key="SystemControlAcrylicWindowBrush"
+                        BackgroundSource="HostBackdrop"
+                        FallbackColor="{ThemeResource SystemChromeMediumColor}"
+                        TintColor="{ThemeResource SystemChromeAltHighColor}"
+                        TintOpacity="0.8" />
+                    <!--  Override system generated accent colors  -->
                     <Color x:Key="SystemAccentColorLight1">#FF9875D4</Color>
                     <Color x:Key="SystemAccentColorLight2">#FFA788DD</Color>
                     <Color x:Key="SystemAccentColorLight3">#FFB79CE5</Color>
                     <Color x:Key="SystemAccentColorDark1">#FF7752BA</Color>
                     <Color x:Key="SystemAccentColorDark2">#FF6543A9</Color>
                     <Color x:Key="SystemAccentColorDark3">#FF543397</Color>
-                    <RevealBackgroundBrush x:Key="SystemControlHighlightListLowRevealBackgroundBrush" TargetTheme="Light" Color="{ThemeResource SystemRevealListMediumColor}" FallbackColor="{ StaticResource SystemListMediumColor}" />
+                    <RevealBackgroundBrush
+                        x:Key="SystemControlHighlightListLowRevealBackgroundBrush"
+                        FallbackColor="{ThemeResource SystemListMediumColor}"
+                        TargetTheme="Light"
+                        Color="{ThemeResource SystemRevealListMediumColor}" />
                     <Color x:Key="RegionColor">#FFFEF6FF</Color>
-                    <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+                    <SolidColorBrush x:Key="RegionBrush" Color="{ThemeResource RegionColor}" />
                     <Color x:Key="BaseColor">#FFEECEFF</Color>
                     <Color x:Key="BasePalette000Color">#FFFEEAFF</Color>
                     <Color x:Key="BasePalette100Color">#FFFBE4FF</Color>
@@ -177,45 +244,45 @@
                     <Color x:Key="PrimaryPalette800Color">#FF543397</Color>
                     <Color x:Key="PrimaryPalette900Color">#FF422486</Color>
                     <Color x:Key="PrimaryPalette1000Color">#FF301574</Color>
-                    <SolidColorBrush x:Key="BaseBrush" Color="{StaticResource BaseColor}" />
-                    <SolidColorBrush x:Key="BasePalette000Brush" Color="{StaticResource BasePalette000Color}" />
-                    <SolidColorBrush x:Key="BasePalette100Brush" Color="{StaticResource BasePalette100Color}" />
-                    <SolidColorBrush x:Key="BasePalette200Brush" Color="{StaticResource BasePalette200Color}" />
-                    <SolidColorBrush x:Key="BasePalette300Brush" Color="{StaticResource BasePalette300Color}" />
-                    <SolidColorBrush x:Key="BasePalette400Brush" Color="{StaticResource BasePalette400Color}" />
-                    <SolidColorBrush x:Key="BasePalette500Brush" Color="{StaticResource BasePalette500Color}" />
-                    <SolidColorBrush x:Key="BasePalette600Brush" Color="{StaticResource BasePalette600Color}" />
-                    <SolidColorBrush x:Key="BasePalette700Brush" Color="{StaticResource BasePalette700Color}" />
-                    <SolidColorBrush x:Key="BasePalette800Brush" Color="{StaticResource BasePalette800Color}" />
-                    <SolidColorBrush x:Key="BasePalette900Brush" Color="{StaticResource BasePalette900Color}" />
-                    <SolidColorBrush x:Key="BasePalette1000Brush" Color="{StaticResource BasePalette1000Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette000Brush" Color="{StaticResource PrimaryPalette000Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette100Brush" Color="{StaticResource PrimaryPalette100Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette200Brush" Color="{StaticResource PrimaryPalette200Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette300Brush" Color="{StaticResource PrimaryPalette300Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette400Brush" Color="{StaticResource PrimaryPalette400Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette500Brush" Color="{StaticResource PrimaryPalette500Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette600Brush" Color="{StaticResource PrimaryPalette600Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette700Brush" Color="{StaticResource PrimaryPalette700Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette800Brush" Color="{StaticResource PrimaryPalette800Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette900Brush" Color="{StaticResource PrimaryPalette900Color}" />
-                    <SolidColorBrush x:Key="PrimaryPalette1000Brush" Color="{StaticResource PrimaryPalette1000Color}" />
-                    <!-- Files-specific overrides -->
+                    <SolidColorBrush x:Key="BaseBrush" Color="{ThemeResource BaseColor}" />
+                    <SolidColorBrush x:Key="BasePalette000Brush" Color="{ThemeResource BasePalette000Color}" />
+                    <SolidColorBrush x:Key="BasePalette100Brush" Color="{ThemeResource BasePalette100Color}" />
+                    <SolidColorBrush x:Key="BasePalette200Brush" Color="{ThemeResource BasePalette200Color}" />
+                    <SolidColorBrush x:Key="BasePalette300Brush" Color="{ThemeResource BasePalette300Color}" />
+                    <SolidColorBrush x:Key="BasePalette400Brush" Color="{ThemeResource BasePalette400Color}" />
+                    <SolidColorBrush x:Key="BasePalette500Brush" Color="{ThemeResource BasePalette500Color}" />
+                    <SolidColorBrush x:Key="BasePalette600Brush" Color="{ThemeResource BasePalette600Color}" />
+                    <SolidColorBrush x:Key="BasePalette700Brush" Color="{ThemeResource BasePalette700Color}" />
+                    <SolidColorBrush x:Key="BasePalette800Brush" Color="{ThemeResource BasePalette800Color}" />
+                    <SolidColorBrush x:Key="BasePalette900Brush" Color="{ThemeResource BasePalette900Color}" />
+                    <SolidColorBrush x:Key="BasePalette1000Brush" Color="{ThemeResource BasePalette1000Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette000Brush" Color="{ThemeResource PrimaryPalette000Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette100Brush" Color="{ThemeResource PrimaryPalette100Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette200Brush" Color="{ThemeResource PrimaryPalette200Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette300Brush" Color="{ThemeResource PrimaryPalette300Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette400Brush" Color="{ThemeResource PrimaryPalette400Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette500Brush" Color="{ThemeResource PrimaryPalette500Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette600Brush" Color="{ThemeResource PrimaryPalette600Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette700Brush" Color="{ThemeResource PrimaryPalette700Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette800Brush" Color="{ThemeResource PrimaryPalette800Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette900Brush" Color="{ThemeResource PrimaryPalette900Color}" />
+                    <SolidColorBrush x:Key="PrimaryPalette1000Brush" Color="{ThemeResource PrimaryPalette1000Color}" />
+                    <!--  Files-specific overrides  -->
                     <Color x:Key="SolidBackgroundFillColorBase">#FFFEF6FF</Color>
                     <Color x:Key="SolidBackgroundFillColorSecondary">#FFFBE4FF</Color>
                     <Color x:Key="SolidBackgroundFillColorTertiary">#FFF8DFFF</Color>
                     <Color x:Key="SolidBackgroundFillColorQuarternary">#FFF4D9FF</Color>
-                    <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="{StaticResource BasePalette000Color}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{StaticResource BasePalette000Color}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{StaticResource BasePalette100Color}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{StaticResource BasePalette200Color}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{StaticResource BasePalette300Color}" />
+                    <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="{ThemeResource BasePalette000Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{ThemeResource BasePalette000Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{ThemeResource BasePalette100Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{ThemeResource BasePalette200Color}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{ThemeResource BasePalette300Color}" />
                 </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
         <ResourceDictionary x:Key="HighContrast">
             <StaticResource x:Key="RegionColor" ResourceKey="SystemColorWindowColor" />
-            <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+            <SolidColorBrush x:Key="RegionBrush" Color="{ThemeResource RegionColor}" />
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>

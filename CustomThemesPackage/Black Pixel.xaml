@@ -1,21 +1,48 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)"
-                    xmlns:BelowWindows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract, 7)">
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:BelowWindows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract, 7)"
+    xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)">
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Default">
             <ResourceDictionary.MergedDictionaries>
-                <Windows10version1809:ColorPaletteResources Accent="#1A73E8" AltHigh="#000000" AltLow="#000000" AltMedium="#000000" AltMediumHigh="#000000" AltMediumLow="#000000" BaseHigh="#FFFFFF" BaseLow="#212121" BaseMedium="#FFFFFF" BaseMediumHigh="#FFFFFF" BaseMediumLow="#99FFFFFF" ChromeAltLow="#212121" ChromeBlackHigh="#000000" ChromeBlackLow="#000000" ChromeBlackMedium="#000000" ChromeBlackMediumLow="#000000" ChromeDisabledHigh="#212121" ChromeDisabledLow="#1A73E8" ChromeGray="#212121" ChromeHigh="#1A73E8" ChromeLow="#212121" ChromeMedium="#212121" ChromeMediumLow="#181818" ChromeWhite="#FFFFFF" ListLow="#212121" ListMedium="#1A73E8" />
+                <Windows10version1809:ColorPaletteResources
+                    Accent="#1A73E8"
+                    AltHigh="#000000"
+                    AltLow="#000000"
+                    AltMedium="#000000"
+                    AltMediumHigh="#000000"
+                    AltMediumLow="#000000"
+                    BaseHigh="#FFFFFF"
+                    BaseLow="#212121"
+                    BaseMedium="#FFFFFF"
+                    BaseMediumHigh="#FFFFFF"
+                    BaseMediumLow="#99FFFFFF"
+                    ChromeAltLow="#212121"
+                    ChromeBlackHigh="#000000"
+                    ChromeBlackLow="#000000"
+                    ChromeBlackMedium="#000000"
+                    ChromeBlackMediumLow="#000000"
+                    ChromeDisabledHigh="#212121"
+                    ChromeDisabledLow="#1A73E8"
+                    ChromeGray="#212121"
+                    ChromeHigh="#1A73E8"
+                    ChromeLow="#212121"
+                    ChromeMedium="#212121"
+                    ChromeMediumLow="#181818"
+                    ChromeWhite="#FFFFFF"
+                    ListLow="#212121"
+                    ListMedium="#1A73E8" />
                 <ResourceDictionary>
                     <Color x:Key="SolidBackgroundAcrylic">#181818</Color>
                     <Color x:Key="SolidBackgroundFillColorBase">#000000</Color>
                     <Color x:Key="SolidBackgroundFillColorSecondary">#000000</Color>
                     <Color x:Key="SolidBackgroundFillColorTertiary">#181818</Color>
                     <Color x:Key="SolidBackgroundFillColorQuarternary">#181818</Color>
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{StaticResource SolidBackgroundFillColorBase}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{StaticResource SolidBackgroundFillColorSecondary}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{StaticResource SolidBackgroundFillColorTertiary}" />
-                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{StaticResource SolidBackgroundFillColorQuarternary}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{ThemeResource SolidBackgroundFillColorBase}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{ThemeResource SolidBackgroundFillColorTertiary}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{ThemeResource SolidBackgroundFillColorQuarternary}" />
                     <Color x:Key="ControlStrokeColorDefault">#000000</Color>
                     <Color x:Key="ControlStrokeColorSecondary">#000000</Color>
                     <SolidColorBrush x:Key="ControlFillColorDefaultBrush" Color="#181818" />
