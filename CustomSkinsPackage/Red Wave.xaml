@@ -6,9 +6,7 @@
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Default">
 
-            <ResourceDictionary.MergedDictionaries>
-                <Windows10version1809:ColorPaletteResources ChromeHigh="#d45332"/>
-            </ResourceDictionary.MergedDictionaries>
+            <Color x:Key="ChromeHigh">#d45332</Color>
 
             <Color x:Key="SolidBackground">#db3f18</Color>
             <Color x:Key="SolidBackgroundFillColorBase">#db3f18</Color>
