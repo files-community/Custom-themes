@@ -9,7 +9,7 @@
             <Color x:Key="SolidBackgroundFillColorBase">#223412</Color>
             <Color x:Key="SolidBackgroundFillColorSecondary">#3B5A1F</Color>
             <Color x:Key="SolidBackgroundFillColorTertiary">#54802C</Color>
-            <Color x:Key="SolidBackgroundFillColorQuarternary">#6DA639</Color>
+            <Color x:Key="SolidBackgroundFillColorQuarternary">#599124</Color>
             <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{ThemeResource SolidBackgroundFillColorBase}" />
             <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
             <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{ThemeResource SolidBackgroundFillColorTertiary}" />
@@ -49,7 +49,7 @@
             <Color x:Key="SolidBackgroundFillColorBase">#cdf7d1</Color>
             <Color x:Key="SolidBackgroundFillColorSecondary">#adedb3</Color>
             <Color x:Key="SolidBackgroundFillColorTertiary">#9aeaa2</Color>
-            <Color x:Key="SolidBackgroundFillColorQuarternary">#83ef8e</Color>
+            <Color x:Key="SolidBackgroundFillColorQuarternary">#88ea91</Color>
             <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{ThemeResource SolidBackgroundFillColorBase}" />
             <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
             <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{ThemeResource SolidBackgroundFillColorTertiary}" />
