@@ -37,10 +37,6 @@
                     <SolidColorBrush x:Key="TabViewItemHeaderBackgroundSelected" Color="{ThemeResource SolidBackground}" />
                     <SolidColorBrush x:Key="TabViewItemHeaderBackgroundPointerOver" Color="{ThemeResource SolidBackground}" />
 
-                    <!-- Corner Roundness -->
-                    <CornerRadius x:Key="ControlCornerRadius">1</CornerRadius>
-                    <CornerRadius x:Key="OverlayCornerRadius">1</CornerRadius>
-
                     <!-- Widget Buttons -->
                     <SolidColorBrush x:Key="ButtonBackground" Color="{ThemeResource SolidBackground}" />
                     <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#131313" />
@@ -49,38 +45,46 @@
                     <!-- Accent Color -->
                     <Color x:Key="SystemAccentColor">#BBBBBB</Color>
                     <Color x:Key="SystemAccentColorLight2">#CCCCCC</Color>
+
+                    <!-- Corner Roundness -->
+                    <CornerRadius x:Key="ControlCornerRadius">1</CornerRadius>
+                    <CornerRadius x:Key="OverlayCornerRadius">1</CornerRadius>
                     
                 </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
         <ResourceDictionary x:Key="Light">
-            
-            <!--  Sidebar  -->
-            <x:Double x:Key="SidebarTintOpacity">1</x:Double>
-            <x:Double x:Key="SidebarTintLuminosityOpacity">1</x:Double>
-
-            <!-- Acrylic Resources -->
-            <Color x:Key="SolidBackgroundAcrylic">#BABABA</Color>
-
-            <!-- Accent Color -->
-            <Color x:Key="SystemAccentColor">#444</Color>
-            <Color x:Key="SystemAccentColorLight2">#444</Color>
 
             <!-- Background Resources -->
-            <Color x:Key="SolidBackgroundFillColorBase">#AFAFAF</Color>
-            <Color x:Key="SolidBackgroundFillColorSecondary">#B2B2B2</Color>
-            <Color x:Key="SolidBackgroundFillColorTertiary">#B2B2B2</Color>
-            <Color x:Key="SolidBackgroundFillColorQuarternary">#BDBDBD</Color>
+            <Color x:Key="SolidBackgroundFillColorBase">#A3A3A3</Color>
+            <Color x:Key="SolidBackgroundFillColorSecondary">#A6A6A6</Color>
+            <Color x:Key="SolidBackgroundFillColorTertiary">#AAA</Color>
+            <Color x:Key="SolidBackgroundFillColorQuarternary">#BEBEBE</Color>
+            <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{ThemeResource SolidBackgroundFillColorQuarternary}" />
+
+            <!--  Sidebar  -->
+            <x:Double x:Key="SidebarTintOpacity">.98</x:Double>
+            <x:Double x:Key="SidebarTintLuminosityOpacity">.98</x:Double>
+
+            <!-- Acrylic Resources -->
+            <Color x:Key="SolidBackgroundAcrylic">#A8A8A8</Color>
 
             <!-- Tabs -->
-            <SolidColorBrush x:Key="TabViewItemHeaderBackgroundSelected" Color="#BCBCBC" />
+            <SolidColorBrush x:Key="TabViewItemHeaderBackgroundSelected" Color="{ThemeResource SolidBackgroundFillColorQuarternary}" />
             <SolidColorBrush x:Key="TabViewItemHeaderBackgroundPointerOver" Color="{ThemeResource SolidBackgroundFillColorQuarternary}" />
 
             <!-- Widget Buttons -->
-            <SolidColorBrush x:Key="ButtonBackground" Color="#BCBCBC" />
-            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#BFBFBF" />
+            <SolidColorBrush x:Key="ButtonBackground" Color="#BBB" />
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#C8C8C8" />
             <SolidColorBrush x:Key="ControlFillColorDefaultBrush" Color="#BCBCBC" />
-            <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{ThemeResource SolidBackgroundFillColorQuarternary}" />
+
+            <!-- Accent Color -->
+            <Color x:Key="SystemAccentColor">#333</Color>
+            <Color x:Key="SystemAccentColorLight2">#333</Color>
+
+            <!-- Corner Roundness -->
+            <CornerRadius x:Key="ControlCornerRadius">1</CornerRadius>
+            <CornerRadius x:Key="OverlayCornerRadius">1</CornerRadius>
 
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
