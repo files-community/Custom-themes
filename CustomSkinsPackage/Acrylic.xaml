@@ -111,7 +111,7 @@
                 TintColor="{ThemeResource SolidBackgroundFillColorTertiary}"
                 TintOpacity="0.65" />
             <AcrylicBrush
-                x:Key="SolidBackgroundFillColorQuarternary"
+                x:Key="PreviewPaneBackgroundBrush"
                 BackgroundSource="HostBackdrop"
                 FallbackColor="{ThemeResource SolidBackgroundFillColorTertiary}"
                 TintColor="{ThemeResource SolidBackgroundFillColorTertiary}"
@@ -221,7 +221,7 @@
                 TintColor="{ThemeResource SolidBackgroundFillColorTertiary}"
                 TintOpacity="0.8" />
             <AcrylicBrush
-                x:Key="SolidBackgroundFillColorQuarternary"
+                x:Key="PreviewPaneBackgroundBrush"
                 BackgroundSource="HostBackdrop"
                 FallbackColor="{ThemeResource SolidBackgroundFillColorTertiary}"
                 TintColor="{ThemeResource SolidBackgroundFillColorTertiary}"
