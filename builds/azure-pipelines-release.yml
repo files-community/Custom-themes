@@ -15,9 +15,9 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      [xml]$xmlDoc = Get-Content $(Build.SourcesDirectory)\CustomThemesPackage\Package.appxmanifest
+      [xml]$xmlDoc = Get-Content $(Build.SourcesDirectory)\CustomSkinsPackage\Package.appxmanifest
       $xmlDoc.Package.Identity.Name="49306atecsolution.ThemesforFiles"
-      $xmlDoc.Save('$(Build.SourcesDirectory)\CustomThemesPackage\Package.appxmanifest')
+      $xmlDoc.Save('$(Build.SourcesDirectory)\CustomSkinsPackage\Package.appxmanifest')
     failOnStderr: true
 
 - task: NuGetToolInstaller@1

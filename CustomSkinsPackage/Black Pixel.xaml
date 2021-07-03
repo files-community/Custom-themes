@@ -1,0 +1,84 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:BelowWindows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract, 7)"
+    xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)">
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Default">
+            <ResourceDictionary.MergedDictionaries>
+                <Windows10version1809:ColorPaletteResources
+                    Accent="#1A73E8"
+                    AltHigh="#000"
+                    AltLow="#000"
+                    AltMedium="#99000000"
+                    AltMediumHigh="#000"
+                    AltMediumLow="#000"
+                    BaseHigh="#FFF"
+                    BaseLow="#212121"
+                    BaseMedium="#FFF"
+                    BaseMediumHigh="#FFF"
+                    BaseMediumLow="#AAA"
+                    ChromeAltLow="#212121"
+                    ChromeBlackHigh="#000"
+                    ChromeBlackLow="#000"
+                    ChromeBlackMedium="#000"
+                    ChromeBlackMediumLow="#000"
+                    ChromeDisabledHigh="#212121"
+                    ChromeDisabledLow="#1A73E8"
+                    ChromeGray="#212121"
+                    ChromeHigh="#1A73E8"
+                    ChromeLow="#212121"
+                    ChromeMedium="#212121"
+                    ChromeMediumLow="#181818"
+                    ChromeWhite="#FFF"
+                    ListLow="#212121"
+                    ListMedium="#1A73E8" />
+                <ResourceDictionary>
+                    <!-- Accent Color -->
+                    <Color x:Key="SystemAccentColor">#1A73E8</Color>
+                    <Color x:Key="SystemAccentColorLight1">#1A73E8</Color>
+                    <Color x:Key="SystemAccentColorLight2">#1A73E8</Color>
+                    <Color x:Key="SystemAccentColorLight3">#1A73E8</Color>
+                    <Color x:Key="SystemAccentColorDark1">#1A73E8</Color>
+                    <Color x:Key="SystemAccentColorDark2">#1A73E8</Color>
+                    <Color x:Key="SystemAccentColorDark3">#1A73E8</Color>
+                    <!-- Acrylic Resources -->
+                    <Color x:Key="SolidBackgroundAcrylic">#181818</Color>
+                    <!-- Background Resources -->
+                    <Color x:Key="SolidBackgroundAcrylic">#181818</Color>
+                    <Color x:Key="SolidBackgroundFillColorBase">#181818</Color>
+                    <Color x:Key="SolidBackgroundFillColorSecondary">#000</Color>
+                    <Color x:Key="SolidBackgroundFillColorTertiary">#181818</Color>
+                    <Color x:Key="SolidBackgroundFillColorQuarternary">#181818</Color>
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush" Color="{ThemeResource SolidBackgroundFillColorBase}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorSecondaryBrush" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorTertiaryBrush" Color="{ThemeResource SolidBackgroundFillColorTertiary}" />
+                    <SolidColorBrush x:Key="SolidBackgroundFillColorQuarternaryBrush" Color="{ThemeResource SolidBackgroundFillColorQuarternary}" />
+                    <Color x:Key="ControlStrokeColorDefault">#000</Color>
+                    <Color x:Key="ControlStrokeColorSecondary">#000</Color>
+                    <SolidColorBrush x:Key="ControlFillColorDefaultBrush" Color="#181818" />
+                    <SolidColorBrush x:Key="ControlFillColorSecondaryBrush" Color="#212121" />
+                    <SolidColorBrush x:Key="ControlFillColorTertiaryBrush" Color="#212121" />
+                    <SolidColorBrush x:Key="ControlFillColorInputActiveBrush" Color="#212121" />
+                    <!-- Corners -->
+                    <CornerRadius x:Key="ControlCornerRadius">8</CornerRadius>
+                    <CornerRadius x:Key="OverlayCornerRadius">8</CornerRadius>
+                    <!-- File Browser Control Background -->
+                    <SolidColorBrush x:Key="FileBrowserBackgroundBrush" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
+                    <!-- Sidebar -->
+                    <x:Double x:Key="SidebarTintOpacity">1</x:Double>
+                    <x:Double x:Key="SidebarTintLuminosityOpacity">1</x:Double>
+                    <!-- Status Bar Background -->
+                    <SolidColorBrush x:Key="StatusBarBackgroundBrush" Color="{ThemeResource SolidBackgroundFillColorTertiary}" />
+                    <!-- Tab Resources -->
+                    <SolidColorBrush x:Key="TabViewItemHeaderBackground" Color="{ThemeResource SolidBackgroundFillColorBase}" />
+                    <SolidColorBrush x:Key="TabViewItemHeaderBackgroundSelected" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
+                    <SolidColorBrush x:Key="TabViewItemHeaderBackgroundPointerOver" Color="#212121" />
+                    <!-- Toolbar Background -->
+                    <SolidColorBrush x:Key="NavigationToolbarBackgroundBrush" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>
+
