@@ -1,0 +1,163 @@
+<!-- Free Public License 1.0.0 Permission to use, copy, modify, and/or distribute this code for any purpose with or without fee is hereby granted. -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)"
+                    xmlns:BelowWindows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract, 7)">
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Default">
+            <ResourceDictionary.MergedDictionaries>
+                <Windows10version1809:ColorPaletteResources Accent="#FF0DCF00" AltHigh="#FF000000" AltLow="#FF000000" AltMedium="#FF000000" AltMediumHigh="#FF000000" AltMediumLow="#FF000000" BaseHigh="#FFFFFFFF" BaseLow="#FF333333" BaseMedium="#FF9A9A9A" BaseMediumHigh="#FFB4B4B4" BaseMediumLow="#FF676767" ChromeAltLow="#FFB4B4B4" ChromeBlackHigh="#FF000000" ChromeBlackLow="#FFB4B4B4" ChromeBlackMedium="#FF000000" ChromeBlackMediumLow="#FF000000" ChromeDisabledHigh="#FF333333" ChromeDisabledLow="#FF9A9A9A" ChromeGray="#FF808080" ChromeHigh="#FF808080" ChromeLow="#FF151515" ChromeMedium="#FF1D1D1D" ChromeMediumLow="#FF2C2C2C" ChromeWhite="#FFFFFFFF" ListLow="#FF1D1D1D" ListMedium="#FF333333" />
+                <ResourceDictionary>
+                    <BelowWindows10version1809:Color x:Key="SystemAccentColor">#FF0DCF00</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltHighColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltLowColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltMediumColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltMediumHighColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltMediumLowColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseHighColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseLowColor">#FF333333</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseMediumColor">#FF9A9A9A</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseMediumHighColor">#FFB4B4B4</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseMediumLowColor">#FF676767</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeAltLowColor">#FFB4B4B4</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeBlackHighColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeBlackLowColor">#FFB4B4B4</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeBlackMediumColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeBlackMediumLowColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeDisabledHighColor">#FF333333</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeDisabledLowColor">#FF9A9A9A</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeGrayColor">#FF808080</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeHighColor">#FF808080</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeLowColor">#FF151515</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeMediumColor">#FF1D1D1D</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeMediumLowColor">#FF2C2C2C</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeWhiteColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemListLowColor">#FF1D1D1D</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemListMediumColor">#FF333333</BelowWindows10version1809:Color>
+                    <Color x:Key="SystemChromeAltMediumHighColor">#CC000D00</Color>
+                    <Color x:Key="SystemChromeAltHighColor">#FF333333</Color>
+                    <Color x:Key="SystemRevealListLowColor">#FF1D1D1D</Color>
+                    <Color x:Key="SystemRevealListMediumColor">#FF333333</Color>
+                    <AcrylicBrush x:Key="SystemControlAcrylicWindowBrush" BackgroundSource="HostBackdrop" TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.8" FallbackColor="{ThemeResource SystemChromeMediumColor}" />
+                    <!-- Override system shape defaults -->
+                    <CornerRadius x:Key="ControlCornerRadius">5,5,5,5</CornerRadius>
+                    <CornerRadius x:Key="OverlayCornerRadius">5,5,5,5</CornerRadius>
+                    <!-- Override system borders -->
+                    <Thickness x:Key="MenuBarItemBorderThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="GridViewItemMultiselectBorderThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="CheckBoxBorderThemeThickness">0</Thickness>
+                    <x:Double x:Key="GridViewItemSelectedBorderThemeThickness">0</x:Double>
+                    <x:Double x:Key="RadioButtonBorderThemeThickness">0</x:Double>
+                    <Thickness x:Key="ButtonBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="CalendarDatePickerBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="TimePickerBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="DatePickerBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ToggleSwitchOuterBorderStrokeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="RepeatButtonBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="SearchBoxBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ToggleButtonBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="TextControlBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="RepeatButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ToggleButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="AppBarEllipsisButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="AppBarButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="AppBarToggleButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ListViewItemRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="GridViewItemRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ComboBoxItemRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <x:Double x:Key="PersonPictureEllipseBadgeStrokeThickness">0</x:Double>
+                    <!-- Override system generated accent colors -->
+                    <Color x:Key="SystemAccentColorDark1">#FF2AD51F</Color>
+                    <Color x:Key="SystemAccentColorDark2">#FF46DC3D</Color>
+                    <Color x:Key="SystemAccentColorDark3">#FF63E25C</Color>
+                    <Color x:Key="SystemAccentColorLight1">#FF0AB900</Color>
+                    <Color x:Key="SystemAccentColorLight2">#FF08A300</Color>
+                    <Color x:Key="SystemAccentColorLight3">#FF058E00</Color>
+                    <Color x:Key="RegionColor">#FF000D00</Color>
+                    <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Light">
+            <ResourceDictionary.MergedDictionaries>
+                <Windows10version1809:ColorPaletteResources Accent="#FF5077CF" AltHigh="#FFFFFFFF" AltLow="#FFFFFFFF" AltMedium="#FFFFFFFF" AltMediumHigh="#FFFFFFFF" AltMediumLow="#FFFFFFFF" BaseHigh="#FF000000" BaseLow="#FFFFFFFF" BaseMedium="#FFB1B1B1" BaseMediumHigh="#FF7D7D7D" BaseMediumLow="#FF979797" ChromeAltLow="#FF7D7D7D" ChromeBlackHigh="#FF000000" ChromeBlackLow="#FFFFFFFF" ChromeBlackMedium="#FF7D7D7D" ChromeBlackMediumLow="#FFB1B1B1" ChromeDisabledHigh="#FFFFFFFF" ChromeDisabledLow="#FFB1B1B1" ChromeGray="#FF979797" ChromeHigh="#FFFFFFFF" ChromeLow="#FFFFFFFF" ChromeMedium="#FFFFFFFF" ChromeMediumLow="#FFFFFFFF" ChromeWhite="#FFFFFFFF" ListLow="#FFFFFFFF" ListMedium="#FFFFFFFF" />
+                <ResourceDictionary>
+                    <BelowWindows10version1809:Color x:Key="SystemAccentColor">#FF5077CF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltHighColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltLowColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltMediumColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltMediumHighColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemAltMediumLowColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseHighColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseLowColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseMediumColor">#FFB1B1B1</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseMediumHighColor">#FF7D7D7D</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemBaseMediumLowColor">#FF979797</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeAltLowColor">#FF7D7D7D</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeBlackHighColor">#FF000000</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeBlackLowColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeBlackMediumColor">#FF7D7D7D</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeBlackMediumLowColor">#FFB1B1B1</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeDisabledHighColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeDisabledLowColor">#FFB1B1B1</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeGrayColor">#FF979797</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeHighColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeLowColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeMediumColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeMediumLowColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemChromeWhiteColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemListLowColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <BelowWindows10version1809:Color x:Key="SystemListMediumColor">#FFFFFFFF</BelowWindows10version1809:Color>
+                    <Color x:Key="SystemChromeAltMediumHighColor">#CCB7FFB8</Color>
+                    <Color x:Key="SystemChromeAltHighColor">#FFFFFFFF</Color>
+                    <Color x:Key="SystemRevealListLowColor">#FFFFFFFF</Color>
+                    <Color x:Key="SystemRevealListMediumColor">#FFFFFFFF</Color>
+                    <AcrylicBrush x:Key="SystemControlAcrylicWindowBrush" BackgroundSource="HostBackdrop" TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.8" FallbackColor="{ThemeResource SystemChromeMediumColor}" />
+                    <!-- Override system shape defaults -->
+                    <CornerRadius x:Key="ControlCornerRadius">5,5,5,5</CornerRadius>
+                    <CornerRadius x:Key="OverlayCornerRadius">5,5,5,5</CornerRadius>
+                    <!-- Override system borders -->
+                    <Thickness x:Key="MenuBarItemBorderThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="GridViewItemMultiselectBorderThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="CheckBoxBorderThemeThickness">0</Thickness>
+                    <x:Double x:Key="GridViewItemSelectedBorderThemeThickness">0</x:Double>
+                    <x:Double x:Key="RadioButtonBorderThemeThickness">0</x:Double>
+                    <Thickness x:Key="ButtonBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="CalendarDatePickerBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="TimePickerBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="DatePickerBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ToggleSwitchOuterBorderStrokeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="RepeatButtonBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="SearchBoxBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ToggleButtonBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="TextControlBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="RepeatButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ToggleButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="AppBarEllipsisButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="AppBarButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="AppBarToggleButtonRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ListViewItemRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="GridViewItemRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <Thickness x:Key="ComboBoxItemRevealBorderThemeThickness">0,0,0,0</Thickness>
+                    <x:Double x:Key="PersonPictureEllipseBadgeStrokeThickness">0</x:Double>
+                    <!-- Override system generated accent colors -->
+                    <Color x:Key="SystemAccentColorLight1">#FF6588D7</Color>
+                    <Color x:Key="SystemAccentColorLight2">#FF7999E0</Color>
+                    <Color x:Key="SystemAccentColorLight3">#FF8EABE8</Color>
+                    <Color x:Key="SystemAccentColorDark1">#FF4067BE</Color>
+                    <Color x:Key="SystemAccentColorDark2">#FF3057AD</Color>
+                    <Color x:Key="SystemAccentColorDark3">#FF20469D</Color>
+                    <RevealBackgroundBrush x:Key="SystemControlHighlightListLowRevealBackgroundBrush" TargetTheme="Light" Color="{ThemeResource SystemRevealListMediumColor}" FallbackColor="{ StaticResource SystemListMediumColor}" />
+                    <Color x:Key="RegionColor">#FFB7FFB8</Color>
+                    <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="HighContrast">
+            <StaticResource x:Key="RegionColor" ResourceKey="SystemColorWindowColor" />
+            <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>
