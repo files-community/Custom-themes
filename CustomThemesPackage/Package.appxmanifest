@@ -7,7 +7,7 @@
   xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
   IgnorableNamespaces="uap mp uap3">
 
-  <Identity Name="ThemesforFiles-Dev" Publisher="CN=53EC4384-7F5B-4CF6-8C23-513FFE9D1AB7" Version="1.2.19.0" />
+  <Identity Name="ThemesforFiles-Dev" Publisher="CN=53EC4384-7F5B-4CF6-8C23-513FFE9D1AB7" Version="1.2.21.0" />
 
   <mp:PhoneIdentity PhoneProductId="d585c495-ef68-42fb-90d8-3ef91093d78f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
