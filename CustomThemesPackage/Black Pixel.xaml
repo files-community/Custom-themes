@@ -6,8 +6,9 @@
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Default">
             <!-- Background Resources -->
-            <SolidColorBrush x:Key="RootBackgroundBrush" Color="#AA000000" />
-            <Color x:Key="SolidBackgroundFillColorBase">#181818</Color>
+            <SolidColorBrush x:Key="RootBackgroundBrush" Color="#000000" />
+            <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="#181818" />
+            <Color x:Key="SolidBackgroundFillColorBase">#000000</Color>
             <Color x:Key="SolidBackgroundFillColorSecondary">#000000</Color>
             <Color x:Key="SolidBackgroundFillColorTertiary">#181818</Color>
             <Color x:Key="SolidBackgroundFillColorQuarternary">#181818</Color>
@@ -21,7 +22,43 @@
             <Color x:Key="SystemAccentColor">#1A73E8</Color>
             <Color x:Key="SystemAccentColorDark1">#1A73E8</Color>
             <Color x:Key="SystemAccentColorDark2">#1A73E8</Color>
-            <Color x:Key="SystemAccentColorDark3">#1A73E8</Color>        
+            <Color x:Key="SystemAccentColorDark3">#1A73E8</Color>    
+            <Color x:Key="SystemAccentColorLight1">#1A73E8</Color>
+            <Color x:Key="SystemAccentColorLight2">#1A73E8</Color>
+            <Color x:Key="SystemAccentColorLight3">#1A73E8</Color>
+            <!-- Status Bar Background -->
+            <SolidColorBrush x:Key="StatusBarBackgroundBrush" Color="#000000" />
+            <!-- File Browser Control Background -->
+            <SolidColorBrush x:Key="FileBrowserBackgroundBrush" Color="#000000" />
+            <SolidColorBrush x:Key="FileBrowserHeaderBackgroundBrush" Color="#000000" />
+            <!-- Navigation-->
+            <SolidColorBrush x:Key="NavigationToolbarBackgroundBrush" Color="#000000" />
+            <SolidColorBrush x:Key="NavigationViewContentBackground" Color="#000000" />
+            <!-- Dual Panes -->
+            <SolidColorBrush x:Key="PaneBorderBrush" Color="#00000000" />
+            <SolidColorBrush x:Key="PaneHolderPageBackgroundBrush" Color="#000000" />
+            <!-- Preview pane -->
+            <SolidColorBrush x:Key="PreviewPaneBackgroundBrush" Color="#181818" />
+            <SolidColorBrush x:Key="RootBackgroundBrush" Color="#000000" />
+            <SolidColorBrush x:Key="ControlStrokeColorDefault" Color="#181818" />
+            <SolidColorBrush x:Key="ControlStrokeColorSecondary" Color="#181818" />
+            <!-- Sidebar -->
+            <SolidColorBrush x:Key="SidebarBorderBrush" Color="#00000000" />
+            <SolidColorBrush x:Key="SidebarContentBackgroundBrush" Color="#181818" />
+            <!-- Titlebar -->
+            <SolidColorBrush x:Key="TitlebarContentBackgroundBrush" Color="#000000" />
+            <SolidColorBrush x:Key="TabViewItemHeaderBackgroundSelected" Color="#181818" />
+            <!-- Properties -->
+            <SolidColorBrush x:Key="PropertiesDialogRootBackgroundBrush" Color="#181818" />
+            <!-- Hover effects -->
+            <SolidColorBrush x:Key="TextControlButtonBackground" Color="#00000000" />
+            <SolidColorBrush x:Key="TextControlButtonBackgroundPointerOver" Color="#66FFFFFF" />
+            <SolidColorBrush x:Key="TextControlButtonBackgroundPressed" Color="#66FFFFFF" />
+            <SolidColorBrush x:Key="TextControlBorderBrush" Color="#00000000" />
+            <!-- Corners -->
+            <CornerRadius x:Key="ControlCornerRadius">8</CornerRadius>
+            <CornerRadius x:Key="OverlayCornerRadius">8</CornerRadius>
+            <CornerRadius x:Key="NavToolbarCornerRadius">8</CornerRadius>
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>
