@@ -38,10 +38,7 @@
             <SolidColorBrush x:Key="PaneBorderBrush" Color="#00000000" />
             <SolidColorBrush x:Key="PaneHolderPageBackgroundBrush" Color="#000000" />
             <!-- Preview pane -->
-            <SolidColorBrush x:Key="PreviewPaneBackgroundBrush" Color="#181818" />
-            <SolidColorBrush x:Key="RootBackgroundBrush" Color="#000000" />
-            <SolidColorBrush x:Key="ControlStrokeColorDefault" Color="#181818" />
-            <SolidColorBrush x:Key="ControlStrokeColorSecondary" Color="#181818" />
+            <SolidColorBrush x:Key="PreviewPaneBackgroundBrush" Color="#000000" />
             <!-- Sidebar -->
             <SolidColorBrush x:Key="SidebarBorderBrush" Color="#00000000" />
             <SolidColorBrush x:Key="SidebarContentBackgroundBrush" Color="#181818" />
