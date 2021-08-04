@@ -34,6 +34,9 @@
             <!-- Navigation-->
             <SolidColorBrush x:Key="NavigationToolbarBackgroundBrush" Color="#000000" />
             <SolidColorBrush x:Key="NavigationViewContentBackground" Color="#000000" />
+            <SolidColorBrush x:Key="TextControlBackground" Color="#181818" />
+            <SolidColorBrush x:Key="TextControlBackgroundFocused" Color="#212121" />
+            <SolidColorBrush x:Key="TextControlBorderBrush" Color="#1A73E8" />
             <!-- Dual Panes -->
             <SolidColorBrush x:Key="PaneBorderBrush" Color="#00000000" />
             <SolidColorBrush x:Key="PaneHolderPageBackgroundBrush" Color="#000000" />
