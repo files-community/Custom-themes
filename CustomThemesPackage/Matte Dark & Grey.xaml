@@ -31,14 +31,15 @@
                     <SolidColorBrush x:Key="SidebarBorderBrush" Color="{ThemeResource SolidBackgroundFillColorBase}" />
                     <SolidColorBrush x:Key="SidebarContentBackgroundBrush" Color="{ThemeResource SolidBackgroundFillColorBase}" />
 
-                    <!-- Acrylic Resources -->
-                    <Color x:Key="SolidBackgroundAcrylic">#000000</Color>
-
                     <!-- Tabs / Titlebar -->
                     <SolidColorBrush x:Key="TitlebarContentBackgroundBrush" Color="{ThemeResource SolidBackgroundFillColorBase}" />
                     <SolidColorBrush x:Key="TabViewItemHeaderBackgroundSelected" Color="{ThemeResource SolidBackground}" />
                     <SolidColorBrush x:Key="TabViewItemHeaderBackgroundPressed" Color="{ThemeResource SolidBackgroundFillColorTertiary}" />
                     <SolidColorBrush x:Key="TabViewItemHeaderBackgroundPointerOver" Color="{ThemeResource SolidBackground}" />
+
+                    <!-- Strokes -->
+                    <Color x:Key="ControlStrokeColorDefault">#141414</Color>
+                    <Color x:Key="ControlStrokeColorSecondary">#141414</Color>
 
                     <!-- Widget Buttons -->
                     <SolidColorBrush x:Key="ButtonBackground" Color="{ThemeResource SolidBackground}" />
@@ -46,8 +47,8 @@
                     <SolidColorBrush x:Key="ControlFillColorDefaultBrush" Color="{ThemeResource SolidBackground}" />
 
                     <!-- Accent Color -->
-                    <Color x:Key="SystemAccentColor">#BBBBBB</Color>
-                    <Color x:Key="SystemAccentColorLight2">#CCCCCC</Color>
+                    <Color x:Key="SystemAccentColor">#EEE</Color>
+                    <Color x:Key="SystemAccentColorLight2">#FFF</Color>
 
                     <!-- Corner Roundness -->
                     <CornerRadius x:Key="ControlCornerRadius">1</CornerRadius>
@@ -59,8 +60,8 @@
         <ResourceDictionary x:Key="Light">
 
             <!-- Background Resources -->
-            <Color x:Key="SolidBackgroundFillColorBase">#9F9F9F</Color>
-            <Color x:Key="SolidBackgroundFillColorSecondary">#A1A1A1</Color>
+            <Color x:Key="SolidBackgroundFillColorBase">#9B9B9B</Color>
+            <Color x:Key="SolidBackgroundFillColorSecondary">#9F9F9F</Color>
             <Color x:Key="SolidBackgroundFillColorTertiary">#A7A7A7</Color>
             <Color x:Key="SolidBackgroundFillColorQuarternary">#BBBBBB</Color>
             <Color x:Key="PreviewPaneBackgroundBrush">#999</Color>
@@ -78,6 +79,10 @@
             <!-- Navigation-->
             <SolidColorBrush x:Key="NavigationToolbarBackgroundBrush" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
             <SolidColorBrush x:Key="NavigationViewContentBackground" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
+
+            <!-- Search Inputs-->
+            <SolidColorBrush x:Key="TextControlBackground" Color="{ThemeResource SolidBackgroundFillColorQuarternary}" />
+            <SolidColorBrush x:Key="TextControlBorderBrush" Color="{ThemeResource SolidBackgroundFillColorQuarternary}" />
 
             <!-- Tabs / Titlebar -->
             <SolidColorBrush x:Key="TitlebarContentBackgroundBrush" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
