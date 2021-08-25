@@ -159,7 +159,6 @@
 
             <!-- Accent Color -->
             <Color x:Key="SystemAccentColor">#111</Color>
-            <Color x:Key="SystemAccentColorLight2">#111</Color>
             <Color x:Key="SystemAccentColorDark1">#111</Color>
 
             <!-- Corner Roundness -->
