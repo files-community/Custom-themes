@@ -14,27 +14,16 @@
             <Color x:Key="SolidBackgroundFillColorQuarternary">#CC3E0F</Color>
             
             <!-- Accent Color -->
-            <Color x:Key="SystemAccentColor">#FFF</Color>
             <Color x:Key="SystemAccentColorLight2">#FFF</Color>
             <Color x:Key="SystemAccentColorDark1">#FFF</Color>
             
             <!-- Corner Roundness -->
-            <CornerRadius x:Key="ControlCornerRadius">3</CornerRadius>
-            <CornerRadius x:Key="OverlayCornerRadius">3</CornerRadius>
+            <CornerRadius x:Key="ControlCornerRadius">4</CornerRadius>
+            <CornerRadius x:Key="OverlayCornerRadius">4</CornerRadius>
 
             <!-- Strokes -->
-            <AcrylicBrush
-                x:Key="ControlStrokeColorDefault"
-                BackgroundSource="HostBackdrop"
-                FallbackColor="#CE3A15"
-                TintColor="#CE3A15"
-                TintOpacity="0.9" />
-            <AcrylicBrush
-                x:Key="ControlStrokeColorSecondary"
-                BackgroundSource="HostBackdrop"
-                FallbackColor="#CE3A15"
-                TintColor="#CE3A15"
-                TintOpacity="0.9" />
+            <Color x:Key="ControlStrokeColorDefault">transparent</Color>
+            <Color x:Key="ControlStrokeColorSecondary">transparent</Color>
 
             <!-- Selected Items -->
             <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="#DC4D1E" />
@@ -162,8 +151,8 @@
             <Color x:Key="SystemAccentColorDark1">#111</Color>
 
             <!-- Corner Roundness -->
-            <CornerRadius x:Key="ControlCornerRadius">2</CornerRadius>
-            <CornerRadius x:Key="OverlayCornerRadius">2</CornerRadius>
+            <CornerRadius x:Key="ControlCornerRadius">4</CornerRadius>
+            <CornerRadius x:Key="OverlayCornerRadius">4</CornerRadius>
 
             <!-- Strokes -->
             <AcrylicBrush
