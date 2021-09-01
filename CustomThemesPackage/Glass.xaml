@@ -155,12 +155,7 @@
                 FallbackColor="{ThemeResource SolidBackgroundFillColorBase}"
                 TintColor="{ThemeResource SolidBackgroundFillColorBase}"
                 TintOpacity="0.65" />
-            <AcrylicBrush
-                x:Key="TextControlBorderBrush"
-                BackgroundSource="HostBackdrop"
-                FallbackColor="{ThemeResource SolidBackgroundFillColorBase}"
-                TintColor="{ThemeResource SolidBackgroundFillColorBase}"
-                TintOpacity="0.65" />
+            <SolidColorBrush x:Key="TextControlBorderBrush" Color="transparent" />
 
         </ResourceDictionary>
         <ResourceDictionary x:Key="Light">
@@ -302,12 +297,8 @@
                 FallbackColor="{ThemeResource SolidBackgroundFillColorQuarternary}"
                 TintColor="{ThemeResource SolidBackgroundFillColorQuarternary}"
                 TintOpacity="0.5" />
-            <AcrylicBrush
-                x:Key="TextControlBorderBrush"
-                BackgroundSource="HostBackdrop"
-                FallbackColor="{ThemeResource SolidBackgroundFillColorQuarternary}"
-                TintColor="{ThemeResource SolidBackgroundFillColorQuarternary}"
-                TintOpacity="0.5" />
+            
+            <SolidColorBrush x:Key="TextControlBorderBrush" Color="transparent" />
 
 
         </ResourceDictionary>
